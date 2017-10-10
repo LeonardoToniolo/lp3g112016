@@ -1,7 +1,7 @@
-<%-- 
+<%--
     Document   : index
     Created on : 26/08/2016, 09:28:32
-    Author     : 1147106
+    Author     : Leonardo Pereira Toniolo
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,6 +13,9 @@
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <section>
+            <h1> Pagina criada para fins academicos</h1>
+        </section>
         <section id="loginsection">
             <form action="Controller" method="POST">
                 <input type="hidden" name="command" value="Userlp3.login"/>
@@ -35,6 +38,6 @@
                 </p>
             </form>
         </section>
-            
+
     </body>
 </html>
